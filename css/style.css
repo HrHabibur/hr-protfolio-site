@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hr{
+    width: 49%;
+    display: inline-block;
+    background: greenyellow;
+    margin-bottom: 50px;
+}
+.hb{
+    width: 49%;
+    display: inline-block;
+    background: rgb(255, 47, 144);
+    margin-bottom: 50px;
+}
