@@ -1,0 +1,6 @@
+github pass: @Habib137
+github name :HrHabibur
+
+file lock with cmd : 
+lock:attrib +h +s +r file name and lock
+unlock:attrib -h -s -r file name and unlock
