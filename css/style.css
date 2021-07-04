@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    /* background: linear-gradient(rgb(4, 8, 15, 0.3), rgb(187, 209, 234, .3)); */
+    background: linear-gradient(rgba(205, 206, 211, 0.3), rgba(217, 224, 231, 0.3));
 }
 #navbar{
     padding: 15px 20px;
@@ -59,6 +59,7 @@ body{
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 25px;
+    color:rgb(223, 223, 13);
 }
 #protfolio .left .prot-pera{
     text-transform: capitalize;
@@ -67,10 +68,10 @@ body{
     text-decoration: none;
     display: inline-block;
     padding:15px 40px;
-    background: linear-gradient(rgba(228, 231, 7, 0.3), rgb(155, 5, 175, .3));
+    background: linear-gradient(rgba(79, 80, 29, 0.3), rgba(29, 145, 160, 0.3));
     text-transform: uppercase;
     font-size: 20px;
-    color:rgb(5, 109, 122);
+    color:rgb(251, 255, 0);
     margin-top: 40px;
     border-radius: 30% 70% 33% 67% / 30% 69% 31% 70% ;
     font-style: italic;
@@ -81,9 +82,9 @@ body{
     width:46%;
     padding:2%;
     margin: 0 2%;  
-    border-radius: 50% 50% 47% 53% / 100% 48% 52% 0% ;
+    border-radius:84% 16% 88% 12% / 24% 77% 23% 76% ;
     box-shadow: 3px 3px 10px 0 black;
-    background: linear-gradient(rgb(187, 169, 7) 50%, rgb(5, 160, 101));
+    background: linear-gradient(rgb(0, 0, 0, .2), rgb(255, 255, 255, .3));
 }
 
 #protfolio .right .img{
@@ -96,3 +97,71 @@ body{
 #protfolio .right .img img{
     width:100%;
 }
+
+/* service start=================== */
+
+#services{
+    display: flex;
+    margin-top: 150px;
+    padding-bottom: 70px;
+}
+#services .left{
+    width: 46%;
+    padding: 2%;
+    box-shadow: 1px 3px 10px 0 rgb(0, 0, 0, .2);
+    margin-left: 2%;
+    padding-bottom: 70px;
+}
+#services .left h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+#services .left h3{
+    font-size: 25px;
+    color:rgb(209, 209, 7);
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+#services .left span{
+    font-size: 25px;
+    border-right: 5px solid rgb(240, 240, 10);
+    margin-right: 10px;
+    padding-right: 10px;
+
+}
+#services .left p{
+    text-transform: capitalize;
+}
+#services .right{
+    width: 46%;
+    margin-left:2%;
+}
+#services .right{
+    width: 46%;
+    padding: 2%;
+    padding-bottom: 70px;
+    box-shadow: 1px 3px 10px 0 rgb(0, 0, 0, .2);
+}
+#services .right h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+#services .right h3{
+    font-size: 25px;
+    color:rgb(209, 209, 7);
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+#services .right span{
+    font-size: 25px;
+    border-right: 5px solid rgb(240, 240, 10);
+    margin-right: 10px;
+    padding-right: 10px;
+
+}
+#services .right p{
+    text-transform: capitalize;
+}
+
