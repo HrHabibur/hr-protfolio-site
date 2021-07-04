@@ -117,6 +117,9 @@ body{
     box-shadow: 1px 3px 10px 0 rgb(0, 0, 0, .2);
     margin-left: 2%;
     padding-bottom: 70px;
+    border-left: 7PX solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
 #services .left h1{
     font-size: 40px;
@@ -148,6 +151,9 @@ body{
     padding: 2%;
     padding-bottom: 70px;
     box-shadow: 1px 3px 10px 0 rgb(0, 0, 0, .2);
+    border-left: 7PX solid;
+    border-image: linear-gradient(rgb(221, 122, 8), rgb(204, 12, 211));
+    border-image-slice: 1;
 }
 #services .right h1{
     font-size: 40px;
